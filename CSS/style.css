@@ -1,0 +1,212 @@
+* { margin: 0px; padding: 0px; outline: none; box-sizing: border-box; }
+
+/*=============================
+nav responsive start
+=============================*/
+
+div#responsiveMenu{display: none;}
+div.responsiveMenuIcon{}
+a.menuIconLink{}
+a.menuIconLink i#bar_icon{display: block;}
+a.menuIconLink i#cross{display: none;}
+div.responsive_menu_list_block{display: none;}
+ul.subMenuUl{display: none;}
+
+/*=============================
+nav responsive end
+=============================*/
+
+
+div#firstSection { background: #b11313; }
+div.mainBlock { width: 960px; height: 52px; margin: auto; }
+ul#unorderList { list-style: none; width: 580px; float: left; }
+ul#unorderList li.leftList { display: inline-block; padding: 17px 0px; position: relative; }
+ul#unorderList li.leftList::after { content: ""; position: absolute; width: 2px; height: 15px; background: rgb(250, 249, 249); top: 19px; }
+ul#unorderList li.leftList:last-child::after { display: none; }
+ul#unorderList li.leftList a.listLink { text-decoration: none; color: white; padding: 0px 5px; font-size: 15px; font-weight: 100; }
+div#searchBlock { width: 202px; float: right; padding: 12px 0px; }
+div#searchBlock input#search { padding: 6px; border: none; border-radius: 15px; }
+div#searchBlock button#searchIcon { background: rgb(150, 1, 1); color: white; border: none; padding: 4px; border-radius: 50%; right: 26px; bottom: 1px; font-size: 9px; position: relative; }
+
+/*=========================================
+MENU DESIGN START
+=========================================*/
+
+#secondBlock {}
+div.mainBlock2 { width: 960px; margin: auto;overflow: hidden; padding-top: 24px; }
+div.logoBlock { width: 500px; float: left; }
+div.logoBlock h1#logoTitle { font-size: 38px; font-weight: 200; }
+span#singleWord { font-size: 55px; }
+p#psdPara { padding-left: 2px; }
+div.iconBlock { width: 350px; float: right; text-align: right; margin-top: 44px; margin-right: 16px; }
+a.iconLink { text-decoration: none; color: white; background: rgb(39, 38, 38); padding: 10px; border-radius: 50%; transition: all 0.4s ease 0s; }
+a.iconLink:hover { background: rgb(243, 158, 1); }
+nav { padding: 41px 0px 0px; }
+div#backgroundcolorForMenu { background: rgb(27, 27, 27); padding: 4px 0px; }
+div.manuBlock { width: 960px; margin: auto; text-align: center; padding: 10px 0px; }
+ul#mainMenuList { list-style: none; }
+ul#mainMenuList li.pageMenu { display: inline-block; }
+ul#mainMenuList li.pageMenu a.pageMenuLink { text-decoration: none; text-transform: uppercase; color: white; padding: 13px; font-size: 15px; transition: all 0.2s ease 0s; }
+ul#mainMenuList li.pageMenu:hover a.pageMenuLink { color: rgb(231, 9, 9); }
+ul.droupDown { list-style: none; position: absolute; top: 244px; background: rgb(171, 16, 16); width: 190px; padding: 6px 0px; transform: scaleY(0); transform-origin: center top; transition: all 0.3s ease 0s; z-index: 999; }
+ul#mainMenuList li.pageMenu:hover ul.droupDown { transform: scaleY(1); }
+ul.droupDown li.droupList { display: list-item; padding: 10px 0px; }
+ul.droupDown li.droupList a.dropLink { text-decoration: none; color: white; }
+ul.droupDown li.droupList:hover { background: rgb(39, 38, 38); }
+ul.droupDown2 { list-style: none; position: absolute; top: 82px; left: 191px; background: rgb(171, 16, 16); width: 190px; transform: scaleY(0); transform-origin: center top; transition: all 0.2s ease 0s; z-index: 999; }
+ul.droupDown li.droupList:hover ul.droupDown2 { transform: scaleY(1); }
+ul.droupDown2 li.droupList2 { display: list-item; padding: 10px 0px; }
+ul.droupDown2 li.droupList2 a.dropLink2 { text-decoration: none; color: white; }
+ul.droupDown2 li.droupList2:hover { background: rgb(39, 38, 38);}
+
+/*=========================================
+MENU DESIGN END
+=========================================*/
+
+/*=========================================
+SLIDER DESIGN START
+=========================================*/
+
+.sliderMainBlock { padding: 68px 0px; background: #f2f2f2}
+div.sliderImage { width: 960px; height: 450px; margin: auto; }
+div.slider { width: 960px; height: 450px; display: inline-block; opacity: 0; transform: translateX(-1300px); position: absolute; transition: all 0.5s ease 0s; }
+div.slider.activate { opacity: 1; transform: translateX(0px); }
+div.slider img { width: 100%; height: 450px; }
+
+/*=========================================
+SLIDER DESIGN END
+=========================================*/
+
+/*=========================================
+ABOUT DESIGN START
+=========================================*/
+
+#aboutMainsection { padding: 68px 0px; }
+div.wrapperBlock { width: 960px; margin: auto; overflow: hidden; }
+div.aboutImage { width: 400px; height: 450px; float: left; }
+div.aboutImage img { max-width: 100%; }
+div.aboutInfoBlock { width: 470px; float: right; text-align: right; }
+div.aboutInfoBlock h1#title { font-size: 47px; font-family: cursive; margin-bottom: 38px; border-bottom: 3px solid lightgray; padding-bottom: 14px; }
+div.aboutInfoBlock p#information { font-size: 26px; color: gray; line-height: 40px; margin-bottom: 64px; }
+div.aboutInfoBlock a { text-decoration: none; color: rgb(126, 3, 3); font-weight: 700; font-size: 21px; }
+div.aboutInfoBlock a i { margin-left: 10px; }
+
+/*=========================================
+ABOUT DESIGN END
+=========================================*/
+
+/*=========================================
+SERVICES DESIGN START
+=========================================*/
+
+#servicesSection {background: #f2f2f2;padding: 45px 0px;}
+div#servicesBlock { width: 960px; margin: auto; overflow: hidden; }
+div#servicesBlock p { font-size: 14px; color: rgb(135, 135, 135); }
+div#servicesBlock a { font-size: 17px; }
+div#servicesBlock a:hover { color: rgb(38, 38, 38); }
+div.singleServicesMenu { width: 300px; float: left; margin-right: 30px; }
+div.singleServicesMenu h2.title { }
+div.singleServicesMenu img.image { padding: 4px; border: 1px solid rgb(220, 218, 218); }
+div.singleServicesMenu p.servicesInfo { margin-top: 21px; }
+div.singleServicesMenu p.secondServicesInfo { margin-top: 25px; }
+div.singleServicesMenu div.linkBlock { margin-top: 17px; text-align: right; }
+div.singleServicesMenu div.linkBlock a.servicesLink { }
+div.singleServicesMenu div.linkBlock a.servicesLink i { font-size: 10px; margin-bottom: 3px; }
+div.singleServicesMenu { }
+div.singleServicesMenu h2.title { color: rgb(51, 51, 51); font-size: 25px; font-weight: 600; }
+div.singleServicesMenu div.imageBlock { overflow: hidden; margin-bottom: 22px; }
+div.singleServicesMenu div.imageBlock img { float: left; margin-right: 20px; }
+div.singleServicesMenu div.imageBlock div.info { width: 216px; float: right; }
+div.singleServicesMenu div.imageBlock div.info h3.topic { margin-bottom: 7px; color: rgb(135, 135, 135); }
+div.singleServicesMenu div.imageBlock div.info p.anotherPara { }
+div.singleServicesMenu div.linkBlock a.servicesLink { text-decoration: none; color: rgb(128, 9, 9); }
+div.singleServicesMenu div.linkBlock a.servicesLink i { font-size: 10px; margin-bottom: 3px; }
+div.singleServicesMenu:last-child { margin-right: 0px; }
+div.singleServicesMenu h2.title { margin-bottom: 43px; }
+div.singleServicesMenu div.clientReview { display: table; margin-bottom: 26px; }
+div.singleServicesMenu div.clientReview:last-child { margin-bottom: 0px; }
+div.singleServicesMenu div.clientReview img { float: left; }
+div.singleServicesMenu div.clientReview h3.titleName { width: 189px; float: right; padding-top: 13px; margin-right: 49px; color: rgb(152, 152, 152); }
+div.singleServicesMenu div.clientReview h3.titleName span { font-weight: normal; }
+div.singleServicesMenu div.clientReview p.reviewText { float: left; margin-bottom: 15px; margin-top: 9px; }
+div.singleServicesMenu div.clientReview a.projectLink { text-decoration: none; color: rgb(128, 9, 9); float: right; }
+div.singleServicesMenu div.clientReview a.projectLink i { font-size: 10px; margin-bottom: 3px; }
+
+/*=========================================
+SERVICES DESIGN END
+=========================================*/
+
+/*=========================================
+FOOTER DESIGN START
+=========================================*/
+
+footer { padding: 30px 0px; }
+footer div#footer_main_block { width: 960px; margin: auto; overflow: hidden; }
+div.footer_single_block { width: 210px; margin-right: 38px; float: left; padding-top: 21px; border-top: 2px solid rgb(102, 102, 102); }
+footer div#footer_main_block div.footer_single_block a:hover{text-decoration: underline;color: red;}
+div.footer_single_block:last-child:nth-child(2) { float: right; }
+div.footer_single_block:last-child:nth-child(3) { float: right; }
+div.footer_single_block:nth-child(4) { margin-right: 0px; float: right; }
+div.footer_single_block h3.footer_title { margin-bottom: 31px; color: rgb(102, 102, 102); font-size: 16pt; font-weight: 400; }
+div.footer_single_block div.single_twtter_info_block { }
+div.footer_single_block div.single_twtter_info_block p.twtter_info { color: rgb(102, 102, 102); line-height: 23px; margin-bottom: 19px; font-size: 12pt; }
+div.footer_single_block div.single_twtter_info_block p.twtter_info a.twtter_link { text-decoration: none; color: rgb(212, 14, 14); }
+div.footer_single_block div.single_twtter_info_block p.twtter_info span.agoInfo { }
+div.footer_single_block a.quick_links { display: list-item; list-style: none; text-decoration: none; color: rgb(102, 102, 102); border-bottom: 1px solid rgb(212, 212, 212); padding: 7px; font-size: 12pt; line-height: 20px; }
+div.footer_single_block a.quick_links i { margin-right: 1pt; font-size: 10px; margin-top: 3px; }
+div.footer_single_block div.footer_single_post_title_block { overflow: hidden; margin-bottom: 18px; }
+div.footer_single_block div.footer_single_post_title_block:last-child { margin-bottom: 0px; }
+div.footer_single_block div.footer_single_post_title_block h5.post_title { font-size: 14pt; line-height: 14px; color: rgb(102, 102, 102); }
+div.footer_single_block div.footer_single_post_title_block p.admin_info { color: rgb(102, 102, 102); font-size: 10pt; margin-bottom: 13px; }
+div.footer_single_block div.footer_single_post_title_block p.admin_info a.admin_link { text-decoration: none; color: rgb(199, 14, 14); }
+div.footer_single_block div.footer_single_post_title_block p.admin_info span.ago_information { }
+div.footer_single_block div.footer_single_post_title_block p.para_information { color: rgb(102, 102, 102); font-size: 12pt; margin-bottom: 18px; }
+div.footer_single_block div.footer_single_post_title_block a.read_more_link { text-decoration: none; color: rgb(208, 16, 16); font-size: 12pt; float: right; }
+div.footer_single_block div.footer_single_post_title_block a.read_more_link i { font-size: 10pt; margin-left: 1px; }
+div.footer_single_block form { outline: none; box-sizing: border-box; }
+div.footer_single_block form input.input_same {padding: 10px;width: 100%;background: rgb(242, 242, 242);margin-bottom: 10px;border: none;border-radius: 6px;}
+div.footer_single_block form textarea.message {padding: 10px;width: 100%;height: 165px;background: rgb(242, 242, 242);margin-bottom: 10px;border: none;border-radius: 10px;}
+div.footer_single_block form input.button {padding: 11px 15px;border: none;border-radius: 6px;}
+div.footer_single_block form input.button:hover{background: coral;}
+
+/*=========================================
+FOOTER DESIGN END
+=========================================*/
+
+/*=========================================
+FOOTER COPIRIGHT DESIGN START
+=========================================*/
+
+div#main_last_block{
+    padding: 26px 0px;
+    background: #f2f2f2;
+    background: #1a1a1a;
+    }
+div#main_last_block div#lastBlock {
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+div#main_last_block div#lastBlock p#left_para {
+    width: 441px;
+    float: left;
+    color: #666666;
+}
+div#main_last_block div#lastBlock p#right_block {
+    width: 330px;
+    float: right;
+    text-align: right;
+    color: #666666;
+}
+
+/*=========================================
+FOOTER COPIRIGHT DESIGN START
+=========================================*/
+
+/* THE END */
+
+
+
+
+

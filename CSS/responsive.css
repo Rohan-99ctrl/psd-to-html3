@@ -1,0 +1,188 @@
+/* TABLET */
+
+@media only screen and (min-width:200px) and (max-width:991px){
+   
+    /* ====================================
+    TOP MENU START
+    ==================================== */
+    
+    section#firstSection {
+        max-width: 100%;
+    }
+    div.mainBlock{max-width: 100%;}
+    ul#unorderList {
+        width: 56%;
+    }
+    ul#unorderList li.leftList {}
+    ul#unorderList li.leftList a.listLink{font-size: 13px;}
+    div#searchBlock{}
+
+    /* ====================================
+    TOP MENU END
+    ==================================== */
+    
+    /* ====================================
+    LOGO BLOCK START
+    ==================================== */
+
+    section#secondBlock {max-width: 100%;}
+    div.mainBlock2{max-width: 100%;padding-bottom: 28px;}
+    div.logoBlock{max-width: 245px;}
+    div.iconBlock{max-width:203px ;}
+   
+    /* ====================================
+    LOGO BLOCK END
+    ==================================== */
+
+    /* ====================================
+    NAV MENU START
+    ==================================== */
+
+    nav{max-width: 100%;display: none;}
+    div#backgroundcolorForMenu{max-width: 100%;}
+    div.manuBlock{max-width: 100%;}
+
+    /* ====================================
+    NAV MENU START
+    ==================================== */
+
+
+    /*=============================
+    nav responsive start
+    =============================*/
+    
+    div#responsiveMenu{display: block;max-width: 100%;
+        background: #1a1a1a;
+        height: 81px;
+        padding-top: 20px;}
+    div.responsiveMenuIcon{overflow: hidden;height: 40px;max-width: 100%;}
+    a.menuIconLink{color: white;}
+    a.menuIconLink i#bar_icon{font-size: 40px;margin-left: 5px;}
+    a.menuIconLink i#cross {float: right;margin-right: 3px;font-size: 40px;}
+    
+    div.responsive_menu_list_block{display:block;background: #1a1a1a;max-width: 100%;transform:translate(-500px);opacity:0;transition: all 0.6s;position: absolute;z-index: 999;width: 100%;overflow-y: scroll;}
+    ul#ul_list_tag{max-width: 100%;padding: 10px 0px;list-style: none;}
+    ul#ul_list_tag li.list_item{max-width: 100%;cursor: pointer;text-align: left;padding: 15px 0px;padding-left: 60px;}
+    ul#ul_list_tag li.list_item:hover{background:rgb(0, 0, 0);}
+    ul#ul_list_tag li.list_item:hover a.list_item_link{color: crimson;}
+    ul#ul_list_tag li.list_item a.list_item_link{text-decoration: none;color:white;}
+    
+    ul.subMenuUl{max-width: 100%;list-style: none;transform:translate(-500px);opacity:0;transition: all 0.6s;height: 0px;display: block;}
+    ul.subMenuUl li.subList{max-width: 100%;padding: 9px 0px;}
+    ul.subMenuUl li.subList:hover{background-color: darkblue;}
+    ul.subMenuUl li.subList:hover a.subListLink{color:crimson;}
+    ul.subMenuUl li.subList a.subListLink{text-decoration: none;color: white;padding-left: 40px;}
+    
+    /*=============================
+    nav responsive end
+    =============================*/
+
+    /*=============================
+    slider responsive start
+    =============================*/
+
+    section.sliderMainBlock{max-width: 100%;}
+    div.sliderImage{max-width: 100%;}
+    div.slider{max-width: 100%;}
+    div.slider.active{}
+
+    /*=============================
+    slider responsive end
+    =============================*/
+
+    /*=============================
+    about me responsive start
+    =============================*/
+
+    section#aboutMainsection{max-width: 100%;}
+    div.wrapperBlock{max-width: 100%;align-items: center;overflow: hidden;}
+    div.aboutImage{max-width: 100%;float: none;margin: auto;margin-bottom: 20px;text-align: center;}
+    div.aboutImage img{}
+    div.aboutInfoBlock{max-width: 100%;float: none;margin: auto;text-align: center;}
+    div.aboutInfoBlock h1#title{text-align: center;max-width: 100%;}
+    div.aboutInfoBlock p#information{text-align: center;max-width: 100%;}
+    div.aboutInfoBlock a{}
+    div.aboutInfoBlock a i{}
+
+    /*=============================
+    about me responsive end
+    =============================*/
+
+    /*=============================
+    services responsive start
+    =============================*/
+    
+    section#servicesSection{max-width: 100%;}
+    div#servicesBlock{max-width: 100%;text-align: center;}
+    div.singleServicesMenu{float: none;text-align: center;margin: auto;margin-bottom: 55px;}
+    div.singleServicesMenu:last-child{margin: auto;}
+    div.singleServicesMenu h2.title{}
+    div.singleServicesMenu div.linkBlock {text-align: center;}
+    div.singleServicesMenu div.clientReview a.projectLink{float: none;}
+    
+    /*=============================
+    services responsive end
+    =============================*/
+
+    /*=============================
+    fooer responsive start
+    =============================*/
+
+    footer{max-width: 100%;background: rgb(0, 0, 0);}
+    footer div#footer_main_block{max-width: 100%;}
+    div.footer_single_block{max-width: 100%;float: none;text-align: center;margin: auto;margin-bottom: 50px;}
+    div.footer_single_block:last-child:nth-child(2){float: none;}
+    div.footer_single_block:last-child:nth-child(3){float: none;}
+    div.footer_single_block:nth-child(4) {float: none;margin: auto;}
+
+    /*=============================
+    fooer responsive end
+    =============================*/
+
+    /*=========================================
+    FOOTER COPIRIGHT DESIGN START
+    =========================================*/
+
+    div#main_last_block{max-width: 100%;}
+    div#main_last_block div#lastBlock{max-width: 100%;text-align: center;}
+    div#main_last_block div#lastBlock p#left_para{float: none;width: 100%;text-align: center;margin-bottom: 10px;}
+    div#main_last_block div#lastBlock p#right_block{float: none;width: 100%;text-align: center;}
+
+    /*=========================================
+    FOOTER COPIRIGHT DESIGN START
+    =========================================*/
+
+}
+
+
+@media only screen and (min-width:200px) and (max-width:480px){
+   
+/*====================================
+search menu design start
+====================================*/
+
+    section#firstSection{max-width: 100%;}
+    div.mainBlock{max-width: 100%;}
+    ul#unorderList {text-align: center;width: 100%;}
+    div#searchBlock{width: 100%;float: none;text-align: center;background: #b11313;}
+    div#searchBlock input#search{}
+
+/*====================================
+search menu design end
+====================================*/ 
+
+/*====================================
+logo menu design start
+====================================*/  
+
+    section#secondBlock{max-width: 100%;padding-top: 30px;padding: 15px 0px;}
+    div.mainBlock2{max-width: 100%;}
+    div.logoBlock{max-width: 100%;text-align: center;float: none;}
+    div.iconBlock{float: none;text-align: center;margin: auto;margin-top: 30px;}
+
+/*====================================
+logo menu design start
+====================================*/ 
+
+}
+
